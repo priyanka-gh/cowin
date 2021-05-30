@@ -1,0 +1,51 @@
+.header_container {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+.left {
+    flex: 0.6;
+    display: flex;
+}
+ 
+.right {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+}
+ 
+.left input {
+    border: 1px solid black;
+    border-radius: 4rem;
+    padding: 1.5rem 3rem;
+    width: 35%;
+    margin-left: 3rem;
+    outline: none;
+}
+ 
+ 
+.right button {
+    background-color: #EE6C6B;
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+    padding: 2rem 8rem;
+    width: 75%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty h2{
+    font-size: 2.5rem;
+}
