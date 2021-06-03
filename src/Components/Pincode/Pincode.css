@@ -63,6 +63,9 @@
         width: 100%;
         margin: 1rem 0;
     }
+    .left,.right{
+        flex: unset !important;
+    }
 
     .right button{
         width: 100%;
