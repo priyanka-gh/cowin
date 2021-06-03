@@ -33,7 +33,7 @@ const District = () => {
                         <div className="header_container">
                             <div className="left">
                                 <input ref={districtIdRef} type="text" placeholder="Enter Distric ID"/>
-                                <input ref={dateRef} type="date" placeholder="Select Date"/>
+                                <input ref={dateRef} type="date" placeholder="dd-mm-yyyy"/>
                             </div>
                             <div className="right">
                                 <button type='submit' onClick={onSearch}>SEARCH</button>

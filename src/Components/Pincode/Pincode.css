@@ -53,7 +53,7 @@
 @media screen and (max-width: 600px) {
     .header_container {
         flex-direction: column;
-        padding: 0 3rem;
+        padding: 0 2rem;
     }
 
     .left {

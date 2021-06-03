@@ -53,7 +53,6 @@
 @media screen and (max-width: 600px) {
     .header_container {
         flex-direction: column;
-        padding: 0 3rem;
     }
 
     .left,.right{
@@ -64,7 +63,6 @@
     }
     .left input{
         width: 100%;
-        margin: 1rem 0;
     }
 
     .right button{

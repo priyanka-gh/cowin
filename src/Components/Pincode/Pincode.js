@@ -33,7 +33,7 @@ const Pincode = () => {
                         <div className="header_container">
                             <div className="left">
                                 <input ref={pincodeRef} type="text" placeholder="Enter Pincode"/>
-                                <input ref={dateRef} type="date" placeholder="Select Date"/>
+                                <input ref={dateRef} type="date" placeholder="dd-mm-yyyy"/>
                             </div>
                             <div className="right">
                                 <button type='submit' onClick={onSearch}>SEARCH</button>
