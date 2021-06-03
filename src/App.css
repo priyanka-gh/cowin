@@ -12,7 +12,7 @@
 
 
 .app  img{
-  width: 50rem;
+  width: 80%;
 }
 
 .btn button{
@@ -38,3 +38,103 @@ a{
   color: white;
   text-decoration: none;
 }
+
+
+@media  (max-width: 600px) {
+
+  .app{
+    background-color: #3A389C;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  
+  .app  img{
+    width: 60%;
+  }
+  
+  .btn button{
+    border: none;
+    border-radius: 5rem;
+    outline: none;
+    padding: 2rem 5rem;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin: auto auto;
+  }
+}
+/* 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+.app{
+  background-color: #3A389C;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.app  img{
+  width: 50%;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button{
+  background-color: #EE6C6B;
+  display: block;
+  border: none;
+  border-radius: 5rem;
+  outline: none;
+  padding: 2rem 8rem;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin: auto auto;
+}
+
+.btn button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+@media  (min-width: 700px) {
+  .app{
+    background-color: #3A389C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .btn button{
+    background-color: #EE6C6B;
+    display: inline;
+    border: none;
+    border-radius: 5rem;
+    outline: none;
+    padding: 2rem 8rem;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  
+  }
+
+  .app  img{
+    width: 50rem;
+  }
+} */

@@ -19,3 +19,62 @@ h1{
 .selectDistrict:hover, .selectPincode:hover{
     transform: scale(1.05);
 }
+
+@media  (max-width: 600px) {
+    .selectionScreen{
+        background-color: #3a389c;
+        height: 100vh;
+        color: white;
+        width: 100%;
+        display: block;
+
+    }
+    .selectionScreen img{
+        display: block;
+        margin: auto;
+        width: 50%;
+        padding-top: 28rem;
+    }
+}
+
+/*
+.selectionScreen{
+    background-color: #3a389c;
+    height: 100vh;
+    color: white;
+    width: 100%;
+}
+.selectionScreen img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+h1{
+    margin-top: 2rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.selectDistrict, .selectPincode{
+    cursor: pointer;
+}
+
+.selectDistrict:hover, .selectPincode:hover{
+    transform: scale(1.05);
+}
+
+@media  (min-width: 700px) {
+
+    .selectionScreen{
+        background-color: #3a389c;
+        height: 100vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
+}
+*/

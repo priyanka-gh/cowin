@@ -1,11 +1,11 @@
 .dataRow{
     display: flex;
     flex-direction: column;
-    text-align: center;
     box-shadow: 3px 4px 7px 3px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
     padding: 2rem 3rem;
     margin: 3rem 3rem;
+    justify-content: space-between;
 }
 
 .colName{
@@ -13,7 +13,7 @@
     margin: 1rem 0;
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .content{
@@ -22,12 +22,9 @@
     font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
+    text-align: right;
 }
 
-.content{
-    display: flex;
-    margin: 1rem 0;
-}
 .address{
     flex: 0.4;
 }
@@ -50,4 +47,44 @@
 
 .time{
     flex: 0.2;
+}
+
+@media screen and (max-width: 600px) {
+    .dataRow{
+        text-align: initial;
+        flex-direction: row;
+    }
+    .colName{
+        display: initial;
+    }   
+    .content{
+        display: initial;
+        margin: 1.5rem 0;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .address{
+        flex: 0.4 1;
+    }
+    
+    .vaccine{
+        flex: 0.1 1;
+    }
+    
+    .dose1{
+        flex: 0.1 1;
+    }
+    
+    .dose2{
+        flex: 0.1 1;
+    }
+    
+    .age{
+        flex: 0.1 1;
+    }
+    
+    .time{
+        flex: 0.2 1;
+    }
 }
